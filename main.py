@@ -11,7 +11,6 @@ confidence = 0.8   # Sets a threshold for the confidence score.
 cap = cv2.VideoCapture(0)  # For Webcam
 cap.set(3, 640)
 cap.set(4, 480)   # Sets the width and height of the video frame.
-
 model = YOLO("yolov8n.pt")
 
 classNames = ["fake", "real"]
