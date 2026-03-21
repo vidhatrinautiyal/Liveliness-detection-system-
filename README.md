@@ -28,5 +28,5 @@ This project implements a real-time face liveness detection system to prevent sp
 
 ### Clone the repository
 ```bash
-git clone https://github.com/vidhatrinautiyal/Liveness-Detection-System.git
+git clone https://github.com/vidhatrinautiyal/Liveness-detection-system-.git
 cd Liveness-Detection-System
