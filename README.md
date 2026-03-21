@@ -30,3 +30,4 @@ This project implements a real-time face liveness detection system to prevent sp
 ```bash
 git clone https://github.com/vidhatrinautiyal/Liveness-detection-system-.git
 cd Liveness-Detection-System
+pip install -r requirements.txt
