@@ -69,8 +69,7 @@ import cvzone
 from ultralytics import YOLO
 
 confidence = 0.8  # Sets a threshold for the confidence score.
-
-model = YOLO("models/myModel.pt")
+model = YOLO("yolov8n.pt")
 classNames = ["fake", "real"]
 
 # Initialize camera capture
