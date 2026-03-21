@@ -1,5 +1,32 @@
-# Liveness-Detection-System-
-• Developed a Python-based system to verify real-time human presence behind the camera. 
-• Created custom scripts to process and split data from video frames, enhancing accuracy of machine learning models by 25% and reducing time spent on data labeling by 40 hours monthly. 
-• Created a comprehensive dataset from scratch, comprising over 8,000 images to train the detection model. 
-• Achieved an accuracy rate of 85/100 on testing data, demonstrating the effectiveness of the system.
+# Liveness Detection System (Face Anti-Spoofing)
+
+## 📌 Overview
+This project implements a real-time face liveness detection system to prevent spoofing attacks. It distinguishes between real human faces and fake inputs such as images or videos using computer vision techniques.
+
+---
+
+## 🚀 Features
+- Real-time face detection using webcam  
+- Real vs Fake classification  
+- Multi-face detection  
+- Blur detection using Laplacian variance  
+- YOLOv8-based detection  
+- Bounding box with confidence score  
+
+---
+
+## 🛠️ Technologies Used
+- Python  
+- OpenCV  
+- cvzone  
+- Ultralytics YOLOv8  
+- NumPy  
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+```bash
+git clone https://github.com/vidhatrinautiyal/Liveness-Detection-System.git
+cd Liveness-Detection-System
